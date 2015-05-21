@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: myzombie1
+      Dependencies:
+        Dependency_0: zombiematerials
+    Info_1:
+      Name: myzombie2
+      Dependencies:
+        Dependency_0: zombiematerials
+    Info_2:
+      Name: zombiematerials
+      Dependencies: {}
+    Info_3:
+      Name: myzombie3
+      Dependencies:
+        Dependency_0: zombiematerials
