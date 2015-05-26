@@ -1,21 +1,24 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadAB.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Editor/MyAssetPostprocessor.cs">
     <Files>
-      <File FileName="Assets/Scripts/Editor/BuildAB.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/LoadAB.cs" Line="42" Column="31" />
+      <File FileName="Assets/Scripts/Editor/BuildAB.cs" Line="13" Column="58" />
+      <File FileName="Assets/Scripts/LoadAB.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Dummy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Dummy2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Editor/MyAssetPostprocessor.cs" Line="4" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scripts" expanded="True">
-              <Node name="LoadAB.cs" selected="True" />
-            </Node>
+            <Node name="Scripts" expanded="True" />
           </Node>
           <Node name="Assembly-CSharp-Editor" expanded="True">
             <Node name="Scripts" expanded="True">
-              <Node name="Editor" expanded="True" />
+              <Node name="Editor" expanded="True">
+                <Node name="MyAssetPostProcessor.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

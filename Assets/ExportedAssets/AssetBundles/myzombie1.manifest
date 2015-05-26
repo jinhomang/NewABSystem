@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1903328857
+CRC: 2428288386
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b832cc19f0ea166823c589919c55b4d2
+    Hash: 72cbd2accb9f550f4bddbfd8048c6c13
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d611448e38341267a491cfbc86977a4b
+    Hash: e3fa5374edaaf398d0eabc6a40bb8353
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -15,15 +15,27 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 21
   Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
 - Class: 43
+  Script: {instanceID: 0}
+- Class: 48
   Script: {instanceID: 0}
 - Class: 90
   Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
 - Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7ca1e845e0fd74f38b15e835a7564a0c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 10843a56d25714d93a786c3839fb52a1, type: 3}
+- Class: 115
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 Assets:
 - Assets/Prefabs/myzombie1.prefab
 Dependencies:
-- Assets/ExportedAssets/AssetBundles/zombiematerials
+- Assets/ExportedAssets/AssetBundles/zombie_model

@@ -4,15 +4,11 @@ AssetBundleManifest:
     Info_0:
       Name: myzombie1
       Dependencies:
-        Dependency_0: zombiematerials
+        Dependency_0: zombie_model
     Info_1:
-      Name: myzombie2
+      Name: myzombie0
       Dependencies:
-        Dependency_0: zombiematerials
+        Dependency_0: zombie_model
     Info_2:
-      Name: zombiematerials
+      Name: zombie_model
       Dependencies: {}
-    Info_3:
-      Name: myzombie3
-      Dependencies:
-        Dependency_0: zombiematerials

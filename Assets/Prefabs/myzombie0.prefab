@@ -487,8 +487,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 431536}
   - 95: {fileID: 9563916}
+  - 114: {fileID: 11423350}
+  - 114: {fileID: 11428578}
   m_Layer: 0
-  m_Name: myzombie3
+  m_Name: myzombie0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -901,8 +903,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174362}
-  m_LocalRotation: {x: 0, y: .167271018, z: 0, w: .985910952}
-  m_LocalPosition: {x: -1.22000003, y: -.0599999987, z: -1.14999998}
+  m_LocalRotation: {x: 0, y: -.160277292, z: 0, w: .987072051}
+  m_LocalPosition: {x: 2.58657885, y: -.0600000024, z: -1.1811316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 415186}
@@ -1173,7 +1175,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156770}
   m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
-  m_LocalPosition: {x: -.897000015, y: 0, z: .298999995}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 431536}
@@ -1286,7 +1288,7 @@ Animator:
   m_GameObject: {fileID: 174362}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 8141a1e3f5562ba4d910d6c02d5d213c, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9089344c981b64a42ae1c4a0a2eab5d8, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1294,6 +1296,28 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11423350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca1e845e0fd74f38b15e835a7564a0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11428578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10843a56d25714d93a786c3839fb52a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &13705568
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1304,7 +1328,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1345,7 +1369,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1385,7 +1409,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1427,7 +1451,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1468,7 +1492,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1509,7 +1533,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1553,7 +1577,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1596,7 +1620,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1638,7 +1662,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1682,7 +1706,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1726,7 +1750,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1767,7 +1791,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1804,7 +1828,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1848,7 +1872,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1889,7 +1913,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1927,7 +1951,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1968,7 +1992,7 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2814d8a8706ef41bcb5636fdb7533cf2, type: 2}
+  - {fileID: 2100000, guid: 2f94c44d0a439443887b14ae2131bd94, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
